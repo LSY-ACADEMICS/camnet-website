@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — CAMNET IT AND CCTV SOLUTIONS</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span>📍 Shop #16, Al-Nabi Plaza, Near Meezan Bank, Taxila</span>
+    <span>📱 0321-5620799 &nbsp;|&nbsp; 0325-5333667</span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-centered">
+      <div class="logo-mark">C</div>
+      <h1 class="logo-title">CAMNET <span>IT AND CCTV SOLUTIONS</span></h1>
+    </a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="nav-bar" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="packages.html">Packages</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="https://wa.me/923215620799" class="btn-wa" target="_blank">WhatsApp Us</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>Get in touch for a free quote or site survey</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <h2>Visit or Call Us</h2>
+      <div class="info-card">
+        <div class="info-icon">📍</div>
+        <div><h4>Address</h4><p>Shop #16, Al-Nabi Plaza,<br>Near Meezan Bank, Taxila, Pakistan</p></div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">📱</div>
+        <div><h4>WhatsApp / Phone</h4>
+          <p><a href="https://wa.me/923215620799">0321-5620799</a><br>
+             <a href="https://wa.me/923255333667">0325-5333667</a></p>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">🕐</div>
+        <div><h4>Working Hours</h4><p>Monday – Saturday: 10:00 AM – 9:00 PM<br>Sunday: Closed</p></div>
+      </div>
+      <a href="https://wa.me/923215620799" class="btn btn-primary btn-lg full" target="_blank">💬 Chat on WhatsApp</a>
+    </div>
+
+    <form class="contact-form" onsubmit="sendToWhatsApp(event)">
+      <h2>Send an Enquiry</h2>
+      <label>Your Name<input type="text" id="name" required placeholder="Enter your name"></label>
+      <label>Phone Number<input type="tel" id="phone" required placeholder="03XX-XXXXXXX"></label>
+      <label>Service / Product
+        <select id="service">
+          <option>CCTV Installation</option>
+          <option>IP Cameras</option>
+          <option>DVR / NVR</option>
+          <option>Access Control</option>
+          <option>Networking</option>
+          <option>IT Support</option>
+          <option>CCTV Packages</option>
+        </select>
+      </label>
+      <label>Message<textarea id="message" rows="4" placeholder="Describe your requirement..."></textarea></label>
+      <button type="submit" class="btn btn-primary btn-lg full">Send via WhatsApp</button>
+      <p class="form-note">Your enquiry will be sent directly to our WhatsApp.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="map-wrap">
+      <iframe src="https://www.google.com/maps?q=Al-Nabi+Plaza+Taxila+Pakistan&output=embed" width="100%" height="400" style="border:0;" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3 class="footer-logo">CAMNET <span>IT AND CCTV SOLUTIONS</span></h3>
+      <p class="mt-16">Your trusted partner for CCTV surveillance, access control, networking and IT solutions in Taxila.</p>
+    </div>
+    <div><h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div><h4>Categories</h4><ul><li>IP Cameras</li><li>DVR / NVR</li><li>Access Control</li><li>Networking</li></ul></div>
+    <div><h4>Contact</h4>
+      <ul class="contact-list">
+        <li>📍 Shop #16, Al-Nabi Plaza,<br>Near Meezan Bank, Taxila</li>
+        <li>📱 <a href="https://wa.me/923215620799">0321-5620799</a></li>
+        <li>📱 <a href="https://wa.me/923255333667">0325-5333667</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container">© 2025 CAMNET IT AND CCTV SOLUTIONS. All rights reserved.</div></div>
+</footer>
+
+<a href="https://wa.me/923215620799" class="float-wa" target="_blank">💬</a>
+
+<script src="js/products.js"></script>
+<script src="js/packages.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
